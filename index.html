@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href = styles.css>
 </head>
-<body>
+<body class="container">
     
     <!--
     Instruction: Create a new website using HTML and Bootstrap. The website must include the following:
@@ -18,16 +18,9 @@
         Elements should stack vertically when the window is small
     -->
     
-
-    <div class="container text-center text-bg-primary mb-3">
-      <div class="card-header" id="mainHeader">Header</div>
-        <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, veniam repudiandae reprehenderit cum incidunt sequi quos consequuntur blanditiis minima quas beatae, minus tempore dolore voluptas sint esse, autem corrupti voluptatem.</p>
-        </div>
-      </div>
-    </div>    
+     
     
-        <nav class="container navbar navbar-expand-md bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
           <!--menu nav bar-->
           <a class="navbar-brand" href="#">Menu</a>
           
@@ -37,18 +30,55 @@
           </button>
           <!--dropdown links to different html files-->
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="dropdown-menu">
-              <li><a class="link1" href="index.html">Home</a></li>
-              <li><a class="link2" href="about.html">About</a></li>
-              <li><a class="link2" href="contact.html">Contact Us</a></li>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="link1" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="link1" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="link1" href="contact.html">Contact</a>
+              </li>
             </ul>
           </div>  
         </nav> 
-   
+        <br>
     
-       
+       <!--another test to collapse-->
+       <nav class="container navbar navbar-expand-md bg-dark navbar-dark">
+        <!--menu nav bar-->
+        <a class="navbar-brand" href="#">Menu</a>
+        
+        <!--Collapse button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--dropdown links to different html files-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="dropdown-menu">
+            <li><a class="link1" href="index.html">Home</a></li>
+            <li><a class="link2" href="about.html">About</a></li>
+            <li><a class="link2" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>  
+      </nav> 
+      <br>
 
+      <div class="container text-center text-bg-primary mb-3">
+        <div class="card-header" id="mainHeader">Header</div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, veniam repudiandae reprehenderit cum incidunt sequi quos consequuntur blanditiis minima quas beatae, minus tempore dolore voluptas sint esse, autem corrupti voluptatem.</p>
+          </div>
+        </div>
+      </div>  
 
+      <div class="container-fluid"  style="border: 2px solid black; text-align: center"> 
+        <div class="row">
+        <div class="col-lg-3" style="border: 2px solid rgb(166, 166, 211)"> Info 1</div>
+        <div class="col-lg-6" style="border: 2px solid rgb(166, 166, 211)"> Info 2</div>
+        <div class="col-lg-3" style="border: 2px solid rgb(166, 166, 211)"> Info 3 </div>
+      </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
