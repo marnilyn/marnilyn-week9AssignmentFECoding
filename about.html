@@ -10,40 +10,32 @@
 <body class="container">
     
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!--menu nav bar-->
-        <a class="navbar-brand" href="#">Menu</a>
-        
-        <!--Collapse button-->
+                   
+        <!--Nav Bar menu-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <!--dropdown links to different html files-->
+        <!--Links to different html files-->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a class="link1" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a class="link1" href="about.html">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a class="link1" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>  
       </nav> 
-    </br>
+      <br>
     
-    <div class="container-fluid"  style="border: 2px solid black; text-align: center"> 
-        <div class="row">
-            <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)">Grid1</div>
-            <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)"> Grid2</div>
-            <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)"> Grid3</div>
-            <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)"> Grid4 </div>
-    </div>
-</div>
+   
 
 <table class="table"><!--format for table-->
+    <h3 id="tableHeader">Table Format</h3>
     <thead>
         <tr>
             <th>Column1</th>
@@ -73,7 +65,28 @@
             <td>Input3</td>
         </tr>
     </tbody>
-</table>
+</table><br>
+
+<div class="container-fluid"  style="border: 2px solid black; text-align: center"> 
+    <!--Grids-->
+    <h3>Grids</h3>
+    <div class="row">
+        <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)">Grid1</div>
+        <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)"> Grid2</div>
+        <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)"> Grid3</div>
+        <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)"> Grid4 </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)">Grid5</div>
+        <div class="col-md-6" style="border: 2px solid rgb(166, 166, 211)"> Grid6</div>
+        <div class="col-md-3" style="border: 2px solid rgb(166, 166, 211)"> Grid7</div>
+    </div>
+    <div class="row">
+        <div class="col-md-6" style="border: 2px solid rgb(166, 166, 211)">Grid8</div>
+        <div class="col-md-6" style="border: 2px solid rgb(166, 166, 211)"> Grid9</div>
+    </div>
+</div>
+<br>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
