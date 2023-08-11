@@ -5,11 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href = styles.css>
 </head>
 <body>
-    <div class="alert alert-primary" role="alert">
-        It Works!
-    </div>
+    
+    <!--
+    Instruction: Create a new website using HTML and Bootstrap. The website must include the following:
+
+    At least 2 pages.
+    A Bootstrap navbar, table, and form.
+    Bootstrap grid used throughout to format elements
+        Elements should stack vertically when the window is small
+    -->
+    
+
+    <div class="container text-center text-bg-primary mb-3">
+      <div class="card-header" id="mainHeader">Header</div>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, veniam repudiandae reprehenderit cum incidunt sequi quos consequuntur blanditiis minima quas beatae, minus tempore dolore voluptas sint esse, autem corrupti voluptatem.</p>
+        </div>
+      </div>
+    </div>    
+    
+        <nav class="container navbar navbar-expand-md bg-dark navbar-dark">
+          <!--menu nav bar-->
+          <a class="navbar-brand" href="#">Menu</a>
+          
+          <!--Collapse button-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--dropdown links to different html files-->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="dropdown-menu">
+              <li><a class="link1" href="index.html">Home</a></li>
+              <li><a class="link2" href="about.html">About</a></li>
+              <li><a class="link2" href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>  
+        </nav> 
+   
+    
+
+
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
