@@ -1,0 +1,22 @@
+{
+  "name": "week-09-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "npm i @bootstrap@4.4.1"
+  },
+  "keywords": [
+    "^C"
+  ],
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.7.0"
+  }
+}
